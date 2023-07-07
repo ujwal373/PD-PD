@@ -5,7 +5,7 @@ import pandas as pd
 import nltk
 nltk.download('stopwords')
 data = pd.read_csv("train.csv", encoding = 'unicode_escape')
-#from nltk.corpus import stopwords
+from nltk.corpus import stopwords
 #from nltk.corpora import stopwords
 from nltk.stem.porter import PorterStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
