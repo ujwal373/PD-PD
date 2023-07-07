@@ -50,7 +50,7 @@ model.fit(X_train,Y_train)
 
 # website
 #st.title('PRODUCT DESIGN & DEVELOPMENT:')
-st.title('FAKE NEWS DETECTION!')
+st.title('NEWS DETECTION!')
 st.subheader('Checkout Dataset here:-https://shorturl.at/opV16')
 input_text = st.text_input('Refer Dataset and Enter News Article Title:')
 
