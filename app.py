@@ -51,7 +51,7 @@ model.fit(X_train,Y_train)
 # website
 #st.title('PRODUCT DESIGN & DEVELOPMENT:')
 st.title('NEWS DETECTION!')
-st.subheader('Checkout Dataset here:-https://shorturl.at/opV16')
+st.subheader('Checkout Dataset here:-https://shorturl.at/eoJ06')
 input_text = st.text_input('Refer Dataset and Enter News Article Title:')
 
 def prediction(input_text):
