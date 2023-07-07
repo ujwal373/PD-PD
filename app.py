@@ -66,5 +66,5 @@ if input_text:
     else:
         st.write('The News Is *Real*')
 
-st.write('Project by')
-st.write('*Rayyan Azmi, Vrunda Tawde & Ujwal Mojidra!*')
+st.subheader('Project by')
+st.subheader('*Rayyan Azmi, Vrunda Tawde & Ujwal Mojidra!*')
