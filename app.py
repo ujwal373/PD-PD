@@ -3,7 +3,7 @@ import numpy as np
 import re
 import pandas as pd
 data = pd.read_csv("train.csv", encoding = 'unicode_escape')
-import nltk
+#import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
